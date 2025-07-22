@@ -208,7 +208,7 @@ Para isso você deve acessar a rota http://localhost:3000/api/v1/mock/create do 
 
 Após isso basta usar a nav-bar da esquerda e acessar o "Use route". Dentro dele, para criar o mock usando a roda do backend end, basta selecionar o metódo POST, inserir a rota `mock/create` e clicar "Aplicar". Após alguns segundos ou minutos dependendo do seu computador, o mock irá ser criado com sucesso.
 
-*Nota: Você não precisa inserir uma senha para fazer login caso esteja com o campo `CREATE_MOCK` no `.env` do server como `=true`.*
+*Nota: Você não precisa inserir uma senha para fazer login caso esteja com o campo `CREATE_MOCK` no `.env` do server como `=true`. Pois você pode usar uma conta gerada pelo o mock para poder acessar a aplicação.*
 ## Contribuindo
 
 Contribuições são sempre bem-vindas!
@@ -234,7 +234,8 @@ Caso tenha algum feedback, por favor me contate por este endereço de email: sas
 
 - [@celiy](https://github.com/celiy) Programação / UI / UX / Imagens / Repositório
 - [@Leon (Matt DF)](https://github.com/Mdf-leon) Deploy da aplicação
-
+- [@Zuza]([https://github.com/Mdf-leon) Deploy da aplicação / Assistência com as funcionalidades
+- [@Rafael](https://github.com/rafascripts)  Assistência com a estruturação do código e otimizações
 
 
 ## Licença
