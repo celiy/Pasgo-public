@@ -1,10 +1,12 @@
 
 ![Logo](https://i.imgur.com/1w9uKql.png)
+---
+
 # Pasgo
 
 Pasgo é uma aplicação web para gerenciamento de micro e pequenas empresas. Tem como o objetivo de ser uma alternativa para outras aplicações da área de programas para gestão de empresas (ERP).
 
-[**Site oficial do Pasgo**](https://pasgo.com.br)
+[**Site oficial do Pasgo**](https://pasgo.com.br) [(https://pasgo.com.br](https://pasgo.com.br))
 
 
 ## Funcionalidades
