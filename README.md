@@ -232,7 +232,7 @@ Caso tenha algum feedback, por favor me contate por este endereço de email: sas
 
 ## Autores
 
-- [@celiy](https://github.com/celiy) Programação / UI / UX / Imagens / Repositório
+- [@celiy](https://github.com/celiy) Programação / Design / UI / UX / Imagens / Repositório
 - [@Leon (Matt DF)](https://github.com/Mdf-leon) Deploy da aplicação
 - [@Zuza](https://github.com/Zuzawerewolf/) Deploy da aplicação / Assistência com as funcionalidades
 - [@Rafael](https://github.com/rafascripts)  Assistência com a estruturação do código e otimizações
