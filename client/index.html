@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/pasgo.png" />
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-5" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      .loaderContainer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        z-index: 10000;
+      }
+      .loader {
+        width: 50px;
+        aspect-ratio: 1;
+        display: grid;
+        border: 4px solid #0000;
+        border-radius: 50%;
+        border-right-color: hsl(221.2 83.2% 53.3%);
+        animation: l15 1s infinite linear;
+        z-index: 10001;
+      }
+      .loader::before,
+      .loader::after {    
+        content: "";
+        grid-area: 1/1;
+        margin: 2px;
+        border: inherit;
+        border-radius: 50%;
+        animation: l15 2s infinite;
+      }
+      .loader::after {
+        margin: 8px;
+        animation-duration: 3s;
+      }
+      .background-loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 200vw;
+        height: 200vh;
+        background-color: black;
+        z-index: 1000;
+      }
+      .hiddenLoadingElement {
+        animation: hideLoadingElement 0.3s forwards;
+      }
+      @keyframes hideLoadingElement {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+      @keyframes l15{ 
+        100%{transform: rotate(1turn)}
+      }
+    </style>
+    
+    <title>Pasgo</title>
+  </head>
+  <body>
+    <!-- Ei, procurano algo aqui? Pasgo é um aplicativo web gratuito que usa anúncios para se sustenar. Caso encontre alguma vulnerabilidade por favor nos contate que receberá dinheiro como recompensa. -->
+    <div class="loaderContainer" id="loaderContainer">
+      <div class="background-loader"></div>
+      <div class="loader"></div>
+    </div>
+
+    <div id="root"></div>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
